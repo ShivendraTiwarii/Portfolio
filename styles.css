@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background-color: #e8f0ff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2.5rem;
+    background-color: #1e2a38;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    padding: 3.5rem 2.5rem;
+    background: #4c6ef5;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    opacity: 0;
+    animation: fadeInAnimation 2s forwards;
+}
+
+.hero span {
+    color: #ffd43b;
+}
+
+.hero .social-links {
+    margin: 1rem 0;
+}
+
+.hero .social-links img {
+    width: 24px;
+    margin: 0 0.5rem;
+}
+
+.hero .buttons .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    color: #fff;
+    background-color: #ff6f61;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.hero .buttons .btn:hover {
+    background-color: #333;
+    color: #ffd43b;
+}
+
+.about, .skills, .projects, .contact, .testimonials {
+    padding: 3rem;
+    max-width: 800px;
+    background-color: #fff;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-content img {
+    width: 160px;
+    border-radius: 50%;
+    margin-right: 1.5rem;
+}
+
+.skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.skills li {
+    background-color: #e0e0e0;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+}
+
+.project-card {
+    margin-top: 1.5rem;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+}
+
+.contact a {
+    color: #4c6ef5;
+}
+
+.testimonials {
+    font-style: italic;
+    color: #444;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
